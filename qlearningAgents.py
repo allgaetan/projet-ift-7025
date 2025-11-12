@@ -206,3 +206,56 @@ class ApproximateQAgent(PacmanQAgent):
             # you might want to print your weights here for debugging
             "*** YOUR CODE HERE ***"
             pass
+
+from sklearn.neural_network import MLPRegressor
+
+class NeuralNetworkQAgent(PacmanQAgent):
+    def __init__(self, extractor='CustomFeatureExtractor', **args):
+        self.featExtractor = util.lookup(extractor, globals())()
+        PacmanQAgent.__init__(self, **args)
+        self.weights = util.Counter()
+
+        nn_params = args.pop("nn_params", {})
+        self.model_initialized = False
+        self.nn_params = nn_params
+        default = dict(
+            hidden_layer_sizes=(64, 64), 
+            activation="relu", 
+            solver="sgd", 
+            learning_rate_init=0.01,
+            warm_start=True,
+            max_iter=100)
+        params = {**default, **self.nn_params}
+        self.mlp = MLPRegressor(**params)
+
+    def getWeights(self):
+        return self.weights
+
+    def getQValue(self, state, action):
+        x = self.featExtractor.getFeatureVector(state, action)
+        if not self.model_initialized:
+            X0 = np.zeros((1, x.shape[0]))
+            y0 = np.zeros(1)
+            self.mlp.fit(X0, y0)
+            self.model_initialized = True
+
+        qValue =  self.mlp.predict(x.reshape(1, -1))[0]
+        return qValue
+
+    def update(self, state, action, nextState, reward):
+        nextQValue = self.computeValueFromQValues(nextState)
+        target = reward + self.discount * nextQValue
+        
+        x = self.featExtractor.getFeatureVector(state, action)
+        if not self.model_initialized:
+            X0 = np.zeros((1, x.shape[0]))
+            y0 = np.zeros(1)
+            self.mlp.fit(X0, y0)
+            self.model_initialized = True
+        
+        self.mlp.fit(x.reshape(1, -1), np.array([target]))
+
+    def final(self, state):
+        PacmanQAgent.final(self, state)
+        if self.episodesSoFar == self.numTraining:
+            pass
