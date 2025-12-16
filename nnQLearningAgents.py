@@ -1,54 +1,53 @@
 import numpy as np
-import random
+import util
+
 from sklearn.neural_network import MLPRegressor
 from qlearningAgents import PacmanQAgent
-import util as util
-from nnFeatureExtractors import *
+from nnFeatureExtractors import MLPRegressorExtractor
 
-class NeuralNetworkQAgent(PacmanQAgent):
-    def __init__(self, extractor='NeuralNetworkExtractor', **args):
+class MLPRegressorQAgent(PacmanQAgent):
+    def __init__(self, extractor='MLPRegressorExtractor', **args):
         self.featExtractor = util.lookup(extractor, globals())()
-        nn_params = args.pop("nn_params", {})
         PacmanQAgent.__init__(self, **args)
-
-        self.model_initialized = False
-        self.batch_size = 1
-        self.memory = []
-        default = dict(
-            hidden_layer_sizes=(64, 64),
-            activation="logistic",
-            solver="sgd",
-            learning_rate_init=0.01,
+        
+        self.params = dict(
+            hidden_layer_sizes=(64,),
+            activation="relu",
+            solver="adam",
+            learning_rate_init=0.001,
             warm_start=True,
-            max_iter=100
+            max_iter=1
         )
-        params = {**default, **nn_params}
-        self.mlp = MLPRegressor(**params)
+        self.mlp = MLPRegressor(**self.params)
+        self.model_initialized = False     
 
-    def _ensure_initialized(self, x_dim):
+    def assertInitialized(self, X):
         if not self.model_initialized:
-            X0 = np.zeros((1, x_dim))
+            X_dim = X.shape[1]
+            print("Initializing MLPRegressor model with input dimension: ", X_dim)
+            X0 = np.zeros((1, X_dim))
             y0 = np.zeros(1)
             self.mlp.fit(X0, y0)
             self.model_initialized = True
+
+    def featuresToInputVector(self, features):
+        featuresVector = np.array([features[key] for key in sorted(features.keys())])
+        X = featuresVector.reshape(1, -1)
+        return X
     
     def getQValue(self, state, action):
-        x = self.featExtractor.getFeatureVector(state, action)
-        self._ensure_initialized(x.shape[0])
-        predQValue = float(self.mlp.predict(x.reshape(1, -1))[0])
-        return predQValue
+        features = self.featExtractor.getFeatures(state, action)
+        X = self.featuresToInputVector(features)
+        self.assertInitialized(X)
+        y_pred = self.mlp.predict(X)
+        qValue = float(y_pred[0])
+        return qValue
 
     def update(self, state, action, nextState, reward):
-        x = self.featExtractor.getFeatureVector(state, action)
-        target = reward + self.discount * self.computeValueFromQValues(nextState)
-        self.memory.append((x, target))
-        self._ensure_initialized(x.shape[0])
-        Xy = random.sample(self.memory, min(len(self.memory), self.batch_size))
-        X = np.array([item[0] for item in Xy])
-        y = np.array([item[1] for item in Xy])
-        self.mlp.fit(X, y)
-    
-    def final(self, state):
-        PacmanQAgent.final(self, state)
-        if self.episodesSoFar == self.numTraining:
-            pass
+        nextQValue = self.computeValueFromQValues(nextState)
+        difference = (reward + self.discount * nextQValue) - self.getQValue(state, action)
+        features = self.featExtractor.getFeatures(state, action)
+        X = self.featuresToInputVector(features)
+        self.assertInitialized(X)
+        y = self.getQValue(state, action) + self.alpha * difference
+        self.mlp.partial_fit(X.reshape(1, -1), np.array([y]))
