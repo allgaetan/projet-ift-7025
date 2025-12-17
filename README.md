@@ -13,16 +13,39 @@ Dans ce projet, nous ajoutons un réseau de neurones perceptron multi-couches (M
 Ce projet reprend la totalité du code du TP2. Les seules parties ajoutées et modifées spécifiquement pour ce projet se trouvent dans les fichiers suivants:
 - [nnFeatureExtractors.py](nnFeatureExtractors.py) pour la classe `MLPRegressorExtractor`, l'extracteur de features spécifique au MLPRegressor
 - [nnQLearningAgents](nnQLearningAgents.py) pour la classe `MLPRegressorQAgent`, l'agent qui implémente le perceptron multi-couches MLPRegressor pour apprendre la fonction Q de Pacman
-- [gridSearch.py](gridSearch.py) qui implémente un algorithme de grid search pour déterminer les paramètres optimaux du MLPRegressor
-- [eval.py](eval.py) qui implémente les différentes fonctions qui ont permis d'évaluer l'agent
+- [eval.py](eval.py) qui implémente les différentes fonctions qui ont permis d'évaluer l'agent et les hyperparamètres
+- [pacman.py](pacman.py): la fonction `runGames()` a été légèrement modifiée pour pouvoir retourner les différents scores pour le besoin des métriques d'évaluation
 - [README.md](README.md), ce fichier README
 - [ift7025_project_report.pdf](ift7025_project_report.pdf), le rapport du projet
+- [evalLogs.txt](evalLogs.txt): un fichier log se remplit lors des évaluations afin de garder des traces de certains résultats
+- [layouts/largeGrid.lay](layouts/largeGrid.lay): une nouvelle grille un peu plus grande que la mediumGrid pour plus de variétés de tests
 
 ### Exécuter le projet
 
-Exécuter le fichier [eval.py](eval.py) effectuera tous les benchmarks exécutés pour l'évaluation.
+Exécuter le fichier [eval.py](eval.py) effectuera tous les benchmarks exécutés pour l'évaluation. 
 ```
-python eval.py
+python eval.py -n NUM_TRAIN -m NUM_TEST -p -s -g -r -l
+```
+Les options pour l'exécution sont (avec `python eval.py -h`):
+
+```
+Evaluation methods for MLPRegressorQAgent
+
+options:
+  -h, --help            show this help message and exit
+  -n NUM_TRAIN, --num_train NUM_TRAIN
+                        Number of training games
+  -m NUM_TEST, --num_test NUM_TEST
+                        Number of testing games
+  -p, --perform-hyperparams-evaluations
+                        Perform hyperparameters evaluations
+  -s, --perform-standard-evaluations
+                        Perform standard evaluations
+  -g, --perform-generalization-evaluations
+                        Perform generalization evaluations
+  -r, --perform-regularizations-evaluations
+                        Perform regularizations evaluations
+  -l, --logging         Enable logging
 ```
 
 ### Train/Test:

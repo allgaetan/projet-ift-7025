@@ -68,3 +68,126 @@ généralisation. Quelle forme de régularisation avez-vous considérée?_
 - benchmarking final
 
 ### premiers resultats
+
+hyperparameters evaluation:
+```
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.78
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.76
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.72
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.08
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigD
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.01, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Results:          Score
+Base      0.78
+ConfigA   0.76
+ConfigB   0.72
+ConfigC   0.08
+ConfigD   0.00
+```
+
+standard evaluation:
+```
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.79
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:             Score
+smallGrid    0.79
+mediumGrid   1.00
+largeGrid    1.00
+```
+
+generalization evaluation
+```
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.78
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.78
+RandomToDirectional   1.00
+```
+
+regularization evaluation
+```
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Score: 0.76
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Score: 0.78
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.001
+Score: 0.72
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.01
+Score: 0.7
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.1
+Score: 0.74
+
+Logs from function regularizationsEvaluations
+Results:         Score
+0.0000   0.76
+0.0001   0.78
+0.0010   0.72
+0.0100   0.70
+0.1000   0.74
+```
+
+python eval.py -n 3000 -m 500 -s -g -r -l 

@@ -1,8 +1,8 @@
 import numpy as np
 import util
 
-from game import Directions, Actions
-from featureExtractors import FeatureExtractor, Directions, closestFood
+from game import Actions
+from featureExtractors import FeatureExtractor, closestFood
 
 class MLPRegressorExtractor(FeatureExtractor):
     def getFeatures(self, state, action):
@@ -30,4 +30,9 @@ class MLPRegressorExtractor(FeatureExtractor):
             features["closest-food"] = float(dist) / (walls.width * walls.height)
 
         return features
+    
+    def toInputVector(self, features):
+        featuresVector = np.array([features[key] for key in sorted(features.keys())])
+        X = featuresVector.reshape(1, -1)
+        return X
         
