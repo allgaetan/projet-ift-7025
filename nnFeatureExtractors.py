@@ -35,4 +35,3 @@ class MLPRegressorExtractor(FeatureExtractor):
         featuresVector = np.array([features[key] for key in sorted(features.keys())])
         X = featuresVector.reshape(1, -1)
         return X
-        

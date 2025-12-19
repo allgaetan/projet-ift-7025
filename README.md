@@ -18,7 +18,23 @@ Ce projet reprend la totalité du code du TP2. Les seules parties ajoutées et m
 - [README.md](README.md), ce fichier README
 - [ift7025_project_report.pdf](ift7025_project_report.pdf), le rapport du projet
 - [evalLogs.txt](evalLogs.txt): un fichier log se remplit lors des évaluations afin de garder des traces de certains résultats
-- [layouts/largeGrid.lay](layouts/largeGrid.lay): une nouvelle grille un peu plus grande que la mediumGrid pour plus de variétés de tests
+
+### Train/Test:
+
+Pour lancer vos propres ésisodes de train et de test, vous pouvez exécuter les commandes suivantes:
+
+- Pour des mêmes paramètres entre train et test:
+```
+python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN + NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
+
+- Avec des paramètres différents entre train et test:
+```
+python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
+```
+python pacman.py -p MLPRegressorQAgent -n NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
 
 ### Exécuter le projet
 
@@ -46,21 +62,4 @@ options:
   -r, --perform-regularizations-evaluations
                         Perform regularizations evaluations
   -l, --logging         Enable logging
-```
-
-### Train/Test:
-
-Pour lancer vos propres ésisodes de train et de test, vous pouvez exécuter les commandes suivantes:
-
-- Pour des mêmes paramètres entre train et test:
-```
-python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN + NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
-```
-
-- Avec des paramètres différents entre train et test:
-```
-python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
-```
-```
-python pacman.py -p MLPRegressorQAgent -n NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
 ```

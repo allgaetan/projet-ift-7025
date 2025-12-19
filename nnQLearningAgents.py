@@ -9,12 +9,11 @@ class MLPRegressorQAgent(PacmanQAgent):
     def __init__(self, extractor='MLPRegressorExtractor', **args):
         self.featExtractor = util.lookup(extractor, globals())()
         self.params = dict(
-                hidden_layer_sizes=(64,),
-                activation="relu",
-                solver="adam",
+                hidden_layer_sizes=(64, 64),
+                activation="logistic",
+                solver="sgd",
                 learning_rate_init=0.001,
-                warm_start=True,
-            )
+                warm_start=True)
         if "params" in args:
             p = args.pop("params")
             self.params.update(p)            
@@ -41,9 +40,8 @@ class MLPRegressorQAgent(PacmanQAgent):
 
     def update(self, state, action, nextState, reward):
         nextQValue = self.computeValueFromQValues(nextState)
-        difference = (reward + self.discount * nextQValue) - self.getQValue(state, action)
+        y = reward + self.discount * nextQValue
         features = self.featExtractor.getFeatures(state, action)
         X = self.featExtractor.toInputVector(features)
         self.assertInitialized(X)
-        y = self.getQValue(state, action) + self.alpha * difference
-        self.mlp.fit(X.reshape(1, -1), np.array([y]))
+        self.mlp.fit(X, np.array([y]))
