@@ -27,7 +27,7 @@ def train(agent, numTrain, trainGridName, trainGhostType):
         numGames=numTrain,
         record=False,
         numTraining=numTrain,
-        timeout=10
+        timeout=1
     )
 
 def test(agent, numTest, testGridName, testGhostType):
@@ -47,7 +47,7 @@ def test(agent, numTest, testGridName, testGhostType):
         display=textDisplay.NullGraphics(),
         numGames=numTest,
         record=False,
-        timeout=10
+        timeout=1
     )
     if "Win Rate" in logs:
         return logs["Win Rate"]
@@ -186,6 +186,7 @@ def generalizationEvaluations(logging=False):
     Generalization capacity:
     - Train on smallGrid with RandomGhost, test on mediumGrid with RandomGhost
     - Train on mediumGrid with RandomGhost, test on smallGrid with RandomGhost
+    - Train on smallGrid with RandomGhost, test on smallGrid with DirectionalGhost
     - Train on mediumGrid with RandomGhost, test on mediumGrid with DirectionalGhost
     """
     testCases = {
@@ -193,7 +194,9 @@ def generalizationEvaluations(logging=False):
                           "testGrid": MEDIUM_GRID_NAME, "testGhost": RandomGhost},
         "MediumToSmall": {"trainGrid": MEDIUM_GRID_NAME, "trainGhost": RandomGhost,
                           "testGrid": SMALL_GRID_NAME, "testGhost": RandomGhost},
-        "RandomToDirectional": {"trainGrid": MEDIUM_GRID_NAME, "trainGhost": RandomGhost,
+        "RandomToDirectionalSmall": {"trainGrid": SMALL_GRID_NAME, "trainGhost": RandomGhost,
+                                    "testGrid": SMALL_GRID_NAME, "testGhost": DirectionalGhost},
+        "RandomToDirectionalMedium": {"trainGrid": MEDIUM_GRID_NAME, "trainGhost": RandomGhost,
                                 "testGrid": MEDIUM_GRID_NAME, "testGhost": DirectionalGhost}
     }
     scores = {}
@@ -228,7 +231,7 @@ def generalizationEvaluations(logging=False):
             f.write("Results: {}\n\n".format(df))
     return df
 
-def regularizationsEvaluations(logging=False):
+def regularizationEvaluations(logging=False):
     """
     Impact of the L2 regularization parameter
     """
@@ -265,10 +268,10 @@ def evaluation(logging):
         print("Generalization evaluation results:")
         print(df)
 
-    if PERFORM_REGULARIZATIONS_EVALUATIONS:
-        print("Performing regularizations evaluations...")
-        df = regularizationsEvaluations(logging)
-        print("Regularizations evaluation results:")
+    if PERFORM_REGULARIZATION_EVALUATIONS:
+        print("Performing regularization evaluations...")
+        df = regularizationEvaluations(logging)
+        print("Regularization evaluation results:")
         print(df)
 
 def argParse():
@@ -283,8 +286,8 @@ def argParse():
                         help="Perform standard evaluations")
     parser.add_argument("-g", "--perform-generalization-evaluations", action="store_true", default=False,
                         help="Perform generalization evaluations")
-    parser.add_argument("-r", "--perform-regularizations-evaluations", action="store_true", default=False,
-                        help="Perform regularizations evaluations")
+    parser.add_argument("-r", "--perform-regularization-evaluations", action="store_true", default=False,
+                        help="Perform regularization evaluations")
     parser.add_argument("-l", "--logging", action="store_true", default=False,
                         help="Enable logging")
     return parser.parse_args()
@@ -297,7 +300,7 @@ if __name__ == "__main__":
     PERFORM_HYPERPARAMETERS_EVALUATIONS = args.perform_hyperparams_evaluations
     PERFORM_STANDARD_EVALUATIONS = args.perform_standard_evaluations
     PERFORM_GENERALIZATION_EVALUATIONS = args.perform_generalization_evaluations
-    PERFORM_REGULARIZATIONS_EVALUATIONS = args.perform_regularizations_evaluations
+    PERFORM_REGULARIZATION_EVALUATIONS = args.perform_regularization_evaluations
     LOGGING = args.logging
     SMALL_GRID_NAME = "smallGrid"
     MEDIUM_GRID_NAME = "mediumGrid"

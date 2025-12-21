@@ -12,7 +12,7 @@ class MLPRegressorQAgent(PacmanQAgent):
                 hidden_layer_sizes=(64, 64),
                 activation="logistic",
                 solver="sgd",
-                learning_rate_init=0.001,
+                learning_rate_init=0.0001,
                 warm_start=True)
         if "params" in args:
             p = args.pop("params")

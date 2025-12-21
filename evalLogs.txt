@@ -1153,3 +1153,397 @@ Grid: mediumGrid
 Ghost Type: RandomGhost
 Score: 1.0
 
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.79
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.24
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.76
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.33
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:                              Score
+smallGrid_RandomGhost         0.74
+smallGrid_DirectionalGhost    0.33
+mediumGrid_RandomGhost        1.00
+mediumGrid_DirectionalGhost   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.64
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.92
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.92
+RandomToDirectional   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.73
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.73
+RandomToDirectional   0.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.73
+RandomToDirectional   0.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.0
+RandomToDirectional    0.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.0
+RandomToDirectional    0.0
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.8
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.8
+RandomToDirectional    1.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.001
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.8
+RandomToDirectional    1.0
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.44
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.44
+RandomToDirectional   1.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.01
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.44
+RandomToDirectional   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.72
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.71
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.54
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         0.72
+MediumToSmall         0.71
+RandomToDirectional   0.54
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.1
+Results:                      Score
+SmallToMedium         0.72
+MediumToSmall         0.71
+RandomToDirectional   0.54
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.71
+
+Logs from function regularizationsEvaluations
+Results:         Score
+0.0000   0.76
+0.0001   0.78
+0.0010   0.72
+0.0100   0.70
+0.1000   0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.76
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.75
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.63
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.81
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.21
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium               1.00
+MediumToSmall               0.81
+RandomToDirectionalSmall    0.21
+RandomToDirectionalMedium   1.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Results:                            Score
+SmallToMedium               1.00
+MediumToSmall               0.81
+RandomToDirectionalSmall    0.21
+RandomToDirectionalMedium   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.48
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.19
+
