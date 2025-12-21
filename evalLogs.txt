@@ -1,0 +1,1812 @@
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.46
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.01
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.01
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.75
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigD
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.01, 'warm_start': True}
+Score: 0.07
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.74
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigD
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.01, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.79
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.59
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.68
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.77
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.77
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.83
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (32, 32), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.76
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.78
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.76
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.72
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.08
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigD
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.01, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Results:          Score
+Base      0.78
+ConfigA   0.76
+ConfigB   0.72
+ConfigC   0.08
+ConfigD   0.00
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.84
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.75
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.75
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:            RandomGhost
+smallGrid          NaN
+mediumGrid         NaN
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.75
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:            RandomGhost
+smallGrid          NaN
+mediumGrid         NaN
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.81
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.73
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:             Score
+smallGrid    0.73
+mediumGrid   1.00
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.77
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:             Score
+smallGrid    0.77
+mediumGrid   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.78
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.78
+RandomToDirectional   1.00
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.79
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:             Score
+smallGrid    0.79
+mediumGrid   1.00
+largeGrid    1.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Score: 0.76
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Score: 0.78
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.001
+Score: 0.72
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.01
+Score: 0.7
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.1
+Score: 0.74
+
+Logs from function regularizationsEvaluations
+Results:         Score
+0.0000   0.76
+0.0001   0.78
+0.0010   0.72
+0.0100   0.70
+0.1000   0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.732
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:             Score
+smallGrid   0.732
+mediumGrid  1.000
+largeGrid   1.000
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.734
+
+Logs from function generalizationEvaluations
+Test Case: SmallToLarge
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: largeGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: LargeToSmall
+Train Grid: largeGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.764
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium        1.000
+MediumToSmall        0.734
+SmallToLarge         1.000
+LargeToSmall         0.764
+RandomToDirectional  1.000
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Score: 0.766
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Score: 0.772
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.001
+Score: 0.762
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.01
+Score: 0.724
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.1
+Score: 0.73
+
+Logs from function regularizationsEvaluations
+Results:         Score
+0.0000  0.766
+0.0001  0.772
+0.0010  0.762
+0.0100  0.724
+0.1000  0.730
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.764
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration: Base
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.37
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigA
+Hyperparameters: {'hidden_layer_sizes': (32, 32), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.45
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigB
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.28
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigC
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.67
+
+Logs from function hyperparametersEvaluations
+Configuration: ConfigD
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.48
+
+Logs from function hyperparametersEvaluations
+Results:          Score
+Base      0.37
+ConfigA   0.45
+ConfigB   0.28
+ConfigC   0.67
+ConfigD   0.48
+
+Logs from function hyperparametersEvaluations
+Configuration 1/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.4
+
+Logs from function hyperparametersEvaluations
+Configuration 2/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.42
+
+Logs from function hyperparametersEvaluations
+Configuration 3/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 4/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.3
+
+Logs from function hyperparametersEvaluations
+Configuration 5/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 6/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.58
+
+Logs from function hyperparametersEvaluations
+Configuration 7/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.78
+
+Logs from function hyperparametersEvaluations
+Configuration 8/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.75
+
+Logs from function hyperparametersEvaluations
+Configuration 9/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 10/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.73
+
+Logs from function hyperparametersEvaluations
+Configuration 11/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.73
+
+Logs from function hyperparametersEvaluations
+Configuration 12/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.82
+
+Logs from function hyperparametersEvaluations
+Configuration 13/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.41
+
+Logs from function hyperparametersEvaluations
+Configuration 14/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.34
+
+Logs from function hyperparametersEvaluations
+Configuration 15/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.41
+
+Logs from function hyperparametersEvaluations
+Configuration 16/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.42
+
+Logs from function hyperparametersEvaluations
+Configuration 17/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.47
+
+Logs from function hyperparametersEvaluations
+Configuration 18/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 19/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 20/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 21/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 22/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.69
+
+Logs from function hyperparametersEvaluations
+Configuration 23/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.75
+
+Logs from function hyperparametersEvaluations
+Configuration 24/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.95
+
+Logs from function hyperparametersEvaluations
+Results:                                                     Score
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.40
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.42
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.39
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.30
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.39
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.58
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.78
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.75
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.73
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.73
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.82
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.41
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.34
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.41
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.42
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.47
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.39
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.69
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.75
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.95
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Score: 0.71
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.75
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.81
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.72
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.55
+
+Logs from function hyperparametersEvaluations
+Configuration 1/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.36
+
+Logs from function hyperparametersEvaluations
+Configuration 2/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.38
+
+Logs from function hyperparametersEvaluations
+Configuration 3/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.44
+
+Logs from function hyperparametersEvaluations
+Configuration 4/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.29
+
+Logs from function hyperparametersEvaluations
+Configuration 5/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.41
+
+Logs from function hyperparametersEvaluations
+Configuration 6/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.58
+
+Logs from function hyperparametersEvaluations
+Configuration 7/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.73
+
+Logs from function hyperparametersEvaluations
+Configuration 8/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.85
+
+Logs from function hyperparametersEvaluations
+Configuration 9/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 10/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.76
+
+Logs from function hyperparametersEvaluations
+Configuration 11/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.75
+
+Logs from function hyperparametersEvaluations
+Configuration 1/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.33
+
+Logs from function hyperparametersEvaluations
+Configuration 2/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 3/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 4/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.47
+
+Logs from function hyperparametersEvaluations
+Configuration 5/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.42
+
+Logs from function hyperparametersEvaluations
+Configuration 6/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.61
+
+Logs from function hyperparametersEvaluations
+Configuration 7/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.77
+
+Logs from function hyperparametersEvaluations
+Configuration 8/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.71
+
+Logs from function hyperparametersEvaluations
+Configuration 9/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 10/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.73
+
+Logs from function hyperparametersEvaluations
+Configuration 11/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.78
+
+Logs from function hyperparametersEvaluations
+Configuration 12/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.8
+
+Logs from function hyperparametersEvaluations
+Configuration 13/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.34
+
+Logs from function hyperparametersEvaluations
+Configuration 14/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.43
+
+Logs from function hyperparametersEvaluations
+Configuration 15/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.34
+
+Logs from function hyperparametersEvaluations
+Configuration 16/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.29
+
+Logs from function hyperparametersEvaluations
+Configuration 17/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.35
+
+Logs from function hyperparametersEvaluations
+Configuration 18/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.38
+
+Logs from function hyperparametersEvaluations
+Configuration 19/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 20/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 21/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 22/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.68
+
+Logs from function hyperparametersEvaluations
+Configuration 23/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.7
+
+Logs from function hyperparametersEvaluations
+Configuration 24/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.77
+
+Logs from function hyperparametersEvaluations
+Results:                                                     Score
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.33
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.39
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.39
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.47
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.42
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.61
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.77
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.71
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.73
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.78
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.80
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.34
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.43
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.34
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.29
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.35
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.38
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.68
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.70
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.77
+
+Logs from function hyperparametersEvaluations
+Configuration 1/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.43
+
+Logs from function hyperparametersEvaluations
+Configuration 2/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.4
+
+Logs from function hyperparametersEvaluations
+Configuration 3/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.36
+
+Logs from function hyperparametersEvaluations
+Configuration 4/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.4
+
+Logs from function hyperparametersEvaluations
+Configuration 5/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.43
+
+Logs from function hyperparametersEvaluations
+Configuration 6/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.61
+
+Logs from function hyperparametersEvaluations
+Configuration 7/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.68
+
+Logs from function hyperparametersEvaluations
+Configuration 8/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.68
+
+Logs from function hyperparametersEvaluations
+Configuration 9/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 10/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.79
+
+Logs from function hyperparametersEvaluations
+Configuration 11/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.74
+
+Logs from function hyperparametersEvaluations
+Configuration 12/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.77
+
+Logs from function hyperparametersEvaluations
+Configuration 13/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 14/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.4
+
+Logs from function hyperparametersEvaluations
+Configuration 15/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.35
+
+Logs from function hyperparametersEvaluations
+Configuration 16/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 17/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.39
+
+Logs from function hyperparametersEvaluations
+Configuration 18/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.35
+
+Logs from function hyperparametersEvaluations
+Configuration 19/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 20/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 21/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.0
+
+Logs from function hyperparametersEvaluations
+Configuration 22/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.7
+
+Logs from function hyperparametersEvaluations
+Configuration 23/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.69
+
+Logs from function hyperparametersEvaluations
+Configuration 24/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.71
+
+Logs from function hyperparametersEvaluations
+Results:                                                     Score
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.43
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.40
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.36
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.40
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.43
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.61
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.68
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.68
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.79
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.74
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.77
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.39
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.40
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.35
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.39
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.39
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.35
+{'hidden_layer_sizes': (64,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (32,), 'activation': 're...   0.00
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.00
+{'hidden_layer_sizes': (64,), 'activation': 'lo...   0.70
+{'hidden_layer_sizes': (32,), 'activation': 'lo...   0.69
+{'hidden_layer_sizes': (64, 64), 'activation': ...   0.71
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.83
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.17
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.81
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.34
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.7
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:                         Score
+smallGrid_RandomGhost     0.7
+mediumGrid_RandomGhost    1.0
+largeGrid_RandomGhost     1.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.71
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 0.01
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Ghost Type: RandomGhost
+Score: 0.01
+
+Logs from function standardEvaluations
+Grid: largeGrid
+Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function standardEvaluations
+Results:                              Score
+smallGrid_RandomGhost         0.00
+smallGrid_DirectionalGhost    0.00
+mediumGrid_RandomGhost        0.01
+mediumGrid_DirectionalGhost   0.00
+largeGrid_RandomGhost         0.01
+largeGrid_DirectionalGhost    0.00
+
+Logs from function hyperparametersEvaluations
+Configuration 1/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.5
+
+Logs from function hyperparametersEvaluations
+Configuration 2/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.47
+
+Logs from function hyperparametersEvaluations
+Configuration 3/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.58
+
+Logs from function hyperparametersEvaluations
+Configuration 4/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.62
+
+Logs from function hyperparametersEvaluations
+Configuration 5/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.65
+
+Logs from function hyperparametersEvaluations
+Configuration 6/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.75
+
+Logs from function hyperparametersEvaluations
+Configuration 7/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 1.0
+
+Logs from function hyperparametersEvaluations
+Configuration 8/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 1.0
+
+Logs from function hyperparametersEvaluations
+Configuration 9/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 0.05
+
+Logs from function hyperparametersEvaluations
+Configuration 10/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 1.0
+
+Logs from function hyperparametersEvaluations
+Configuration 11/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 1.0
+
+Logs from function hyperparametersEvaluations
+Configuration 12/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'sgd', 'learning_rate_init': 0.0001, 'warm_start': True}
+Score: 1.0
+
+Logs from function hyperparametersEvaluations
+Configuration 13/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.44
+
+Logs from function hyperparametersEvaluations
+Configuration 14/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.57
+
+Logs from function hyperparametersEvaluations
+Configuration 15/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.6
+
+Logs from function hyperparametersEvaluations
+Configuration 16/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.57
+
+Logs from function hyperparametersEvaluations
+Configuration 17/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.61
+
+Logs from function hyperparametersEvaluations
+Configuration 18/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'logistic', 'solver': 'adam', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.64
+
+Logs from function hyperparametersEvaluations
+Configuration 19/24
+Hyperparameters: {'hidden_layer_sizes': (64,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.02
+
+Logs from function hyperparametersEvaluations
+Configuration 20/24
+Hyperparameters: {'hidden_layer_sizes': (32,), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.03
+
+Logs from function hyperparametersEvaluations
+Configuration 21/24
+Hyperparameters: {'hidden_layer_sizes': (64, 64), 'activation': 'relu', 'solver': 'sgd', 'learning_rate_init': 0.001, 'warm_start': True}
+Score: 0.02
+
+evalll
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.75
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.13
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.79
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.24
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.76
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.33
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Grid: mediumGrid
+Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function standardEvaluations
+Results:                              Score
+smallGrid_RandomGhost         0.74
+smallGrid_DirectionalGhost    0.33
+mediumGrid_RandomGhost        1.00
+mediumGrid_DirectionalGhost   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.64
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.92
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.92
+RandomToDirectional   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.73
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.73
+RandomToDirectional   0.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.73
+RandomToDirectional   0.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.0
+RandomToDirectional    0.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.0
+RandomToDirectional    0.0
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.8
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.8
+RandomToDirectional    1.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.001
+Results:                      Score
+SmallToMedium          1.0
+MediumToSmall          0.8
+RandomToDirectional    1.0
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.44
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.44
+RandomToDirectional   1.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.01
+Results:                      Score
+SmallToMedium         1.00
+MediumToSmall         0.44
+RandomToDirectional   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.72
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.71
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectional
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.54
+
+Logs from function generalizationEvaluations
+Results:                      Score
+SmallToMedium         0.72
+MediumToSmall         0.71
+RandomToDirectional   0.54
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.1
+Results:                      Score
+SmallToMedium         0.72
+MediumToSmall         0.71
+RandomToDirectional   0.54
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.71
+
+Logs from function regularizationsEvaluations
+Results:         Score
+0.0000   0.76
+0.0001   0.78
+0.0010   0.72
+0.0100   0.70
+0.1000   0.74
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.76
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.75
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.63
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.81
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.21
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium               1.00
+MediumToSmall               0.81
+RandomToDirectionalSmall    0.21
+RandomToDirectionalMedium   1.00
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Results:                            Score
+SmallToMedium               1.00
+MediumToSmall               0.81
+RandomToDirectionalSmall    0.21
+RandomToDirectionalMedium   1.00
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.48
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.19
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.4
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.76
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.18
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.81
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium               0.40
+MediumToSmall               0.76
+RandomToDirectionalSmall    0.18
+RandomToDirectionalMedium   0.81
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.54
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.19
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.53
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium               1.00
+MediumToSmall               0.54
+RandomToDirectionalSmall    0.19
+RandomToDirectionalMedium   0.53
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.65
+
+Logs from function generalizationEvaluations
+Results:                            Score
+RandomToDirectionalMedium   0.65
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.98
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.8
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.99
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.78
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.79
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.82
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.9
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.65
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: RandomGhost
+Score: 0.6
+
+Logs from function standardEvaluations
+Grid: smallGrid
+Ghost Type: DirectionalGhost
+Score: 0.1
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 0.6
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.8
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.0
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium                0.6
+MediumToSmall                0.8
+RandomToDirectionalSmall     0.0
+RandomToDirectionalMedium    1.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0
+Results:                            Score
+SmallToMedium                0.6
+MediumToSmall                0.8
+RandomToDirectionalSmall     0.0
+RandomToDirectionalMedium    1.0
+
+Logs from function generalizationEvaluations
+Test Case: SmallToMedium
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: RandomGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Test Case: MediumToSmall
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: RandomGhost
+Score: 0.9
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalSmall
+Train Grid: smallGrid
+Train Ghost Type: RandomGhost
+Test Grid: smallGrid
+Test Ghost Type: DirectionalGhost
+Score: 0.1
+
+Logs from function generalizationEvaluations
+Test Case: RandomToDirectionalMedium
+Train Grid: mediumGrid
+Train Ghost Type: RandomGhost
+Test Grid: mediumGrid
+Test Ghost Type: DirectionalGhost
+Score: 1.0
+
+Logs from function generalizationEvaluations
+Results:                            Score
+SmallToMedium                1.0
+MediumToSmall                0.9
+RandomToDirectionalSmall     0.1
+RandomToDirectionalMedium    1.0
+
+Logs from function regularizationsEvaluations
+L2 Regularization Alpha: 0.0001
+Results:                            Score
+SmallToMedium                1.0
+MediumToSmall                0.9
+RandomToDirectionalSmall     0.1
+RandomToDirectionalMedium    1.0
+

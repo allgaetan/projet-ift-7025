@@ -1,40 +1,65 @@
 # Projet: IFT-7025, Automne 2025
-Equipe 55
+
+**Equipe 55:** Gaétan ALLAIRE
 
 ## Réseaux de neurones pour l’apprentissage par renforcement dans le jeu de Pacman
 
-Dans ce projet, votre travail consiste à modifier le code du TP2 afin d’utiliser un réseau de neurones
-(perceptron multi-couches) pour apprendre la fonction Q de Pacman. Fondamentalement, vous
-devez réécrire le code de la classe ApproximateQAgent. Voici comment procéder en trois étapes
-fondamentales:
+Dans ce projet, nous ajoutons un réseau de neurones perceptron multi-couches (MLPRegressor de scikit-learn) à l'algorithme d'apprentissage par renforcement Pacman, notamment pour l'apprentissage de sa fonction Q. Nous commencerons par définir un nouveau feature extractor spécifique pour le MLPRegressor, puis un nouvel agent basé sur la logique du ApproximateQAgent, qui intégrera le MLPRegressor pour apprendre la fonction Q. Finalement, nous évaluerons notre modèle à travers différents types de tests. Une attention particulière sera porté sur l'étude de l'influence des paramètres du perceptron, notamment la régularisation du modèle, ainsi que sur sa capacité à généraliser son apprentissage.
 
-### Définition de la représentation du jeu
+>**NOTE:** Ce README présente seulement la structure et l'exécution du projet. Pour les détails sur la réalisation de ce projet ainsi que sur les résultats, merci de vous référer au [rapport](ift7025_project_report.pdf).
 
-Un réseau de neurones prendra en entrée un vecteur x = ϕ(s), où s est l’état du jeu et ϕ est une
-fonction qui convertit l’état du jeu sous une forme appropriée. C’est à vous de définir la fonction
-ϕ. Décrivez dans votre rapport comment vous avez procédé. Avez-vous normalisé le vecteur?
-Quelle est sa dimension? Contient-il essentiellement toute l’information sur le jeu ou seulement
-des caractéristiques spécifiques que vous avez jugées utiles?
+### Structure du projet
 
-### Réseaux de neurones de scikit-learn
+Ce projet reprend la totalité du code du TP2. Les seules parties ajoutées et modifées spécifiquement pour ce projet se trouvent dans les fichiers suivants:
+- [nnFeatureExtractors.py](nnFeatureExtractors.py) pour la classe `MLPRegressorExtractor`, l'extracteur de features spécifique au MLPRegressor
+- [nnQLearningAgents](nnQLearningAgents.py) pour la classe `MLPRegressorQAgent`, l'agent qui implémente le perceptron multi-couches MLPRegressor pour apprendre la fonction Q de Pacman
+- [eval.py](eval.py) qui implémente les différentes fonctions qui ont permis d'évaluer l'agent et les hyperparamètres
+- [pacman.py](pacman.py): la fonction `runGames()` a été légèrement modifiée pour pouvoir retourner les différents scores pour le besoin des métriques d'évaluation
+- [README.md](README.md), ce fichier README
+- [ift7025_project_report.pdf](ift7025_project_report.pdf), le rapport du projet
+- [evalLogs.txt](evalLogs.txt): un fichier log se remplit lors des évaluations afin de garder des traces de certains résultats
 
-Exploiter la classe MLPRegressor de scikit-learn pour réécrire la classe ApproximateQAgent du TP2
-(fichier qlearningAgents.py). À noter que l’option warm_start = T rue permet de faire plusieurs
-appels à la méthode fit d’une manière à continuer l’entraînement sur les poids précédemment
-obtenus (style online).
+### Train/Test:
 
-### Évaluation
+Pour lancer vos propres ésisodes de train et de test, vous pouvez exécuter les commandes suivantes:
 
-Choisir un protocole pour déterminer les hyperparamètres de l’algorithme. Parmi les hyperparamètres, on compte par exemple le taux d’apprentissage, le nombre de couches, le nombre
-de neurones à chaque couche. Un choix standard pour les fonctions d’activations est la ReLU et
-un choix standard pour l’optimiseur est SGD.
-Tester votre méthode sur différentes grilles. Tester contre le RandomGhost (défaut) et contre le
-DirectionalGhost (plus difficile). Comparer vos scores moyens avec ceux de la version originale du
-TP2.
+- Pour des mêmes paramètres entre train et test:
+```
+python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN + NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
 
-Seulement IFT-7025: Investiguer la capacité à généraliser de votre agent Pacman. Par exemple,
-entraîner Pacman sur une grille puis tester sur une grille différente. La performance chute-t-elle
-significativement? À noter qu’il faut une même représentation x = ϕ(s) qui peut être utilisée sur
-des grilles de différentes tailles. Un autre exemple consiste à entraîner contre le RandomGhost
-puis tester contre le DirectionalGhost. Ensuite, investiguer si la régularisation aide à augmenter la
-généralisation. Quelle forme de régularisation avez-vous considérée?
+- Avec des paramètres différents entre train et test:
+```
+python pacman.py -p MLPRegressorQAgent -x NUM_TRAIN -n NUM_TRAIN -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
+```
+python pacman.py -p MLPRegressorQAgent -n NUM_TEST -l GRID_NAME -g GHOST_TYPE (Default RandomGhost)
+```
+
+### Exécuter le projet
+
+Exécuter le fichier [eval.py](eval.py) effectuera tous les benchmarks exécutés pour l'évaluation. 
+```
+python eval.py -n NUM_TRAIN -m NUM_TEST -p -s -g -r -l
+```
+Les options pour l'exécution sont (avec `python eval.py -h`):
+
+```
+Evaluation methods for MLPRegressorQAgent
+
+options:
+  -h, --help            show this help message and exit
+  -n NUM_TRAIN, --num_train NUM_TRAIN
+                        Number of training games
+  -m NUM_TEST, --num_test NUM_TEST
+                        Number of testing games
+  -p, --perform-hyperparams-evaluations
+                        Perform hyperparameters evaluations
+  -s, --perform-standard-evaluations
+                        Perform standard evaluations
+  -g, --perform-generalization-evaluations
+                        Perform generalization evaluations
+  -r, --perform-regularizations-evaluations
+                        Perform regularizations evaluations
+  -l, --logging         Enable logging
+```
